@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC7805
+D Linear Regulator +5V
+K POWER REGUL
+$ENDCMP
+#
+$CMP MC7812
+D Linear Regulator +12V
+$ENDCMP
+#
+$CMP MC7815
+D Linear Regulator +15V
+$ENDCMP
+#
+$CMP MC7912
+D Linear Regulator -15V
+$ENDCMP
+#
+$CMP MC7915
+D Linear Regulator -15V
+K POWER REGUL
+$ENDCMP
+#
+#End Doc Library

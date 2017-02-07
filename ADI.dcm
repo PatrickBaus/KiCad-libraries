@@ -1,0 +1,125 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5541
+D Voltage Output, Unbuffered 16-Bit DAC
+K DAC, 16-bit, SPI
+$ENDCMP
+#
+$CMP AD5541A
+D Voltage Output, Unbuffered 16-Bit DAC
+K DAC, 16-bit, SPI
+$ENDCMP
+#
+$CMP AD5762R
+D Complete Dual, 16-Bit, High Accuracy,Serial Input, Bipolar Voltage Output DAC
+K DAC, Dual, 16-bit, bipolar, SPI
+$ENDCMP
+#
+$CMP AD8021
+D Low Noise, High Speed Amplifier
+K Low Noise
+$ENDCMP
+#
+$CMP AD8022
+D Dual High Speed, Low Noise Op Amp
+K Low Noise, Dual Opamp
+$ENDCMP
+#
+$CMP AD8421
+D 3 nV/√Hz, Low Power, Instrumentation Amplifier
+K Low Noise, Instrumentation Amplifier
+$ENDCMP
+#
+$CMP AD8620
+D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers
+K Low Noise, Dual Opamp, Precision
+$ENDCMP
+#
+$CMP AD8671
+D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifiers
+K Low Noise, Precision
+$ENDCMP
+#
+$CMP AD8672
+D Dual, Precision, Very Low Noise, Low Input, Bias Current Operational Amplifiers
+K Low Noise, Dual Opamp
+$ENDCMP
+#
+$CMP AD8675
+D Ultraprecision, 36 V, 2.8 nV/√Hz, Rail-to-Rail Output Op Amp
+K Low Noise, Rail-to-Rail, Precision
+F components/AD8675.pdf
+$ENDCMP
+#
+$CMP AD8676
+D Ultraprecision, 36 V, 2.8 nV/√Hz, Dual Rail-to-Rail Output Op Amp
+K Low Noise, Dual Op Amp, Rail-to-Rail, Precision
+$ENDCMP
+#
+$CMP AD8694
+D Low Cost, Low Noise, CMOS, Rail-to-rail Operational Amplifier
+K Low Noise, Quad Opamp, Low Cost
+$ENDCMP
+#
+$CMP ADA4077-1
+D 4 MHz, 7 nV/√Hz, Low Offset and Drift, High Precision Amplifiers
+K Precision
+$ENDCMP
+#
+$CMP ADA4077-4
+D 4 MHz, 7 nV/√Hz, Low Offset and Drift, High Precision Amplifiers
+K Precision, Quad
+$ENDCMP
+#
+$CMP ADA4841
+D Low Power, Low Noise and Distortion, Rail-to-Rail Output Amplifier
+K Low Noise, Rail-to-Rail, Low Power
+$ENDCMP
+#
+$CMP ADA4841-2
+D Low Power, Low Noise and Distortion, Dual, Rail-to-Rail Output Amplifier
+K Low Noise, Rail-to-Rail, Low Power, Dual
+$ENDCMP
+#
+$CMP ADA4870
+D High Speed, High Voltage, 1 A Output Drive Amplifier
+K High Speed, high current
+$ENDCMP
+#
+$CMP ADA4898-2
+D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
+K Low Noise, Dual
+$ENDCMP
+#
+$CMP ADG1334
+D ±15 V/+12 V Quad SPDT Switches
+K analog switch, parallel
+$ENDCMP
+#
+$CMP ADG1414
+D 9.5 Ω RON, ±15 V/+12 V/±5 V iCMOS, Serially-Controlled Octal SPST Switches
+K SPST, dual supply, analog switch, SPI
+$ENDCMP
+#
+$CMP ADG5412BF
+D ±15 V/+12 V Quad SPDT Switches
+K analog switch, parallel
+$ENDCMP
+#
+$CMP ADP7118
+D 20 V, 200 mA, Low Noise, LDO Linear Regulator
+K LDO, low noise
+$ENDCMP
+#
+$CMP OP07
+D Precision Operational Amplifier
+K Low noise, Low drift
+$ENDCMP
+#
+$CMP TPS7A30
+D  –35-V, –200-mA, Ultralow-Noise, Negative Linear Regulator
+K LDO, low noise, negative
+F components/TPS7A30.pdf
+$ENDCMP
+#
+#End Doc Library

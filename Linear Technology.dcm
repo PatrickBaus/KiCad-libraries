@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM399
+D Precision Reference, 6.95V
+K Reference
+$ENDCMP
+#
+$CMP LT1568
+D Very Low Noise, High Frequency Active RC, Filter Building Block
+K Filter, Low Noise
+$ENDCMP
+#
+$CMP LTC1563-2
+D Very Low Noise, High Frequency Active RC, Filter Building Block
+K Filter, Low Noise
+$ENDCMP
+#
+#End Doc Library
