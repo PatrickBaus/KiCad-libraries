@@ -10,9 +10,22 @@ D Very Low Noise, High Frequency Active RC, Filter Building Block
 K Filter, Low Noise
 $ENDCMP
 #
+$CMP LT1994
+D Low Noise, Low Distortion Fully Differential Input/Output Amplifier/Driver
+K Low noise, Fully Differential
+F http://cds.linear.com/docs/en/datasheet/1994fb.pdf
+$ENDCMP
+#
+$CMP LT6232
+D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
+K AmpliOp, Rail-to-Rail, Low Noise
+F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
+$ENDCMP
+#
 $CMP LTC1563-2
 D Very Low Noise, High Frequency Active RC, Filter Building Block
 K Filter, Low Noise
+F http://cds.linear.com/docs/en/datasheet/156323fa.pdf
 $ENDCMP
 #
 #End Doc Library
