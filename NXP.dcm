@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74ABT245
+D 8bits Buffer/Line Driver 3 state Out
+K TTL BUFFER 3State BUS
+$ENDCMP
+#
 $CMP 74ALVC32
 D Quad Or 2 inputs
 K TTL, OR
