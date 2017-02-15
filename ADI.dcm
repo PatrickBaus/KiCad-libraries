@@ -106,6 +106,12 @@ D ±15 V/+12 V Quad SPDT Switches
 K analog switch, parallel
 $ENDCMP
 #
+$CMP ADP3338
+D High Accuracy, Ultralow IQ, 1 A, anyCAP® Low Dropout Regulator
+K Adjustable Voltage Regulator 1A Positive
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP3338.pdf
+$ENDCMP
+#
 $CMP ADP7118
 D 20 V, 200 mA, Low Noise, LDO Linear Regulator
 K LDO, low noise
