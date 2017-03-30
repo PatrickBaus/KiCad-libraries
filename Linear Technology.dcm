@@ -28,4 +28,10 @@ K Filter, Low Noise
 F http://cds.linear.com/docs/en/datasheet/156323fa.pdf
 $ENDCMP
 #
+$CMP LTC2057
+D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
+K AmpliOp, Rail-to-Rail, Low Noise
+F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
+$ENDCMP
+#
 #End Doc Library

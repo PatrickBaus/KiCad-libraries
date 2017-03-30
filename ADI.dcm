@@ -15,6 +15,11 @@ D Complete Dual, 16-Bit, High Accuracy,Serial Input, Bipolar Voltage Output DAC
 K DAC, Dual, 16-bit, bipolar, SPI
 $ENDCMP
 #
+$CMP AD590
+D 2-Terminal IC Temperature Transducer
+K Temperature
+$ENDCMP
+#
 $CMP AD8021
 D Low Noise, High Speed Amplifier
 K Low Noise
