@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R
+D Ultra High Precision Power Resistor
+K r res resistor
+F http://www.vishaypg.com/docs/63116/vpr221z.pdf
+$ENDCMP
+#
+#End Doc Library
