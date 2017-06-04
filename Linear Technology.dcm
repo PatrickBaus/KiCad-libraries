@@ -16,6 +16,12 @@ K Low noise, Fully Differential
 F http://cds.linear.com/docs/en/datasheet/1994fb.pdf
 $ENDCMP
 #
+$CMP LT3024EFE
+D Dual 100mA/500mA Low Dropout, Low Noise, Micropower Regulator
+K LDO, low noise, Dual output
+F https://cds.linear.com/docs/en/datasheet/3024fa.pdf
+$ENDCMP
+#
 $CMP LT3032
 D Dual 150mA, Positive/Negative Low Noise, Low Dropout Linear Regulator
 K LDO, low noise, dual, postive, negative
