@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# R
+# VPR221
 #
-DEF R R 0 0 N Y 1 F N
+DEF VPR221 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "VPR221" 0 0 50 V V C CNN
 F2 "TO_SOT_Packages_THT:TO-220-4_Vertical" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 180 100 60 V I C CNN "MFN"
