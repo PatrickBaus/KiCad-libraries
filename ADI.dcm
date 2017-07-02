@@ -44,6 +44,12 @@ K Low Noise, Dual Opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8022.pdf
 $ENDCMP
 #
+$CMP AD8222
+D Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier, Dual
+K Instrumentation Amplifier, dual
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8222.pdf
+$ENDCMP
+#
 $CMP AD8226
 D Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
 K Instrumentation Amplifier
@@ -54,6 +60,11 @@ $CMP AD8421
 D 3 nV/√Hz, Low Power, Instrumentation Amplifier
 K Low Noise, Instrumentation Amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8429
+D 1 nV/√Hz Low Noise Instrumentation Amplifier
+K Low noise, Instrumentation amplifier
 $ENDCMP
 #
 $CMP AD8620
