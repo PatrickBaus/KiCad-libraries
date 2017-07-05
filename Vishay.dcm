@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Rn
+D Resistor network (8x)
+K r res resistor
+$ENDCMP
+#
 $CMP VPR221
 D Ultra High Precision Power Resistor
 K r res resistor
