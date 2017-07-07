@@ -179,6 +179,12 @@ D Ultracompact, Precision 10.0 V Reference
 K Voltage reference, Buffered
 $ENDCMP
 #
+$CMP ADR4550
+D Ultralow Noise, High Accuracy, Voltage References, 5V
+K Voltage reference, Buffered, Series
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
 $CMP ADuM141D
 D 3.0 kV RMS/3.75 kV RMS, Quad Digital Isolators
 K Digital isolator, Quad, 3:1
