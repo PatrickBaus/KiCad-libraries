@@ -196,4 +196,10 @@ D Precision Operational Amplifier
 K Low noise, Low drift
 $ENDCMP
 #
+$CMP OP467
+D Quad Precision, High Speed Operational Amplifier
+K Quad, precision, op amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP467.pdf
+$ENDCMP
+#
 #End Doc Library
