@@ -112,6 +112,12 @@ K Precision, JFET, Opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4000-1_4000-2_4000-4.pdf
 $ENDCMP
 #
+$CMP ADA4000-1_(TSOT)
+D Low Cost, Precision JFET, Input Operational Amplifiers
+K Precision, JFET, Opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4000-1_4000-2_4000-4.pdf
+$ENDCMP
+#
 $CMP ADA4077-1
 D 4 MHz, 7 nV/√Hz, Low Offset and Drift, High Precision Amplifiers
 K Precision
