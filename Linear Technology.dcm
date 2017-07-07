@@ -28,6 +28,12 @@ K LDO, low noise, dual, postive, negative
 F https://cds.linear.com/docs/en/datasheet/3032ff.pdf
 $ENDCMP
 #
+$CMP LT3032-X
+D Dual 150mA, Positive/Negative Low Noise, Low Dropout Linear Regulator, Fixed Output
+K LDO, low noise, dual, postive, negative, fixed
+F https://cds.linear.com/docs/en/datasheet/3032ff.pdf
+$ENDCMP
+#
 $CMP LT3045EDD
 D 20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator, DFN Package
 K LDO, low noise, high PSRR
