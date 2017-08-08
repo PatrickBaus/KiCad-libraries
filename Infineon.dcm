@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IFX9201SG
+D 6 A H-Bridge with SPI
+K H-Bridge, SPI
+F https://www.infineon.com/dgdl/Infineon-IFX9201SG-DS-v01_01-EN.pdf?fileId=5546d4624cb7f111014d2e8916795dea
+$ENDCMP
+#
+#End Doc Library
