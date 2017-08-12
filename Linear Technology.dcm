@@ -46,6 +46,18 @@ K LDO, low noise, high PSRR
 F https://cds.linear.com/docs/en/datasheet/3045f.pdf
 $ENDCMP
 #
+$CMP LT3090EDD
+D –36V, 600mA Negative Linear Regulator with Programmable Current Limit, DFN Package
+K LDO, low noise, high PSRR
+F https://cds.linear.com/docs/en/datasheet/3090fa.pdf
+$ENDCMP
+#
+$CMP LT3090EMSE
+D –36V, 600mA Negative Linear Regulator with Programmable Current Limit, DFN Package
+K LDO, low noise, high PSRR
+F https://cds.linear.com/docs/en/datasheet/3090fa.pdf
+$ENDCMP
+#
 $CMP LT6232
 D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
 K AmpliOp, Rail-to-Rail, Low Noise
