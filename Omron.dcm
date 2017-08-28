@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G6A
+D Low Signal Relay SPDT
+K Low Signal Relay Single Pole Double Throw
+F https://www.omron.com/ecb/products/pdf/en-g6a.pdf
+$ENDCMP
+#
+#End Doc Library

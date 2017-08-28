@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HCT541_PWR
+D 8bits Buffer/Line Driver 3 state Out
+K TTL BUFFER 3State BUS
+$ENDCMP
+#
+$CMP OPA4188
+D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifier
+K Low Noise, Quad Opamp
+$ENDCMP
+#
+#End Doc Library
