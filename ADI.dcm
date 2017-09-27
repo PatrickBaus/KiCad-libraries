@@ -207,6 +207,12 @@ K Voltage reference, Buffered, Series
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
 $ENDCMP
 #
+$CMP ADuM131D
+D 3.0 kV RMS/3.75 kV RMS, Triple Digital Isolators
+K Digital isolator, Triple, 2:1
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM140D_140E_141D_141E_142D_142E.pdf
+$ENDCMP
+#
 $CMP ADuM141D
 D 3.0 kV RMS/3.75 kV RMS, Quad Digital Isolators
 K Digital isolator, Quad, 3:1
