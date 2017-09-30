@@ -6,6 +6,12 @@ K Voltage Regulator 250mA Positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
 $ENDCMP
 #
+$CMP MCP1700(DFN)
+D Low Quiescent Current LDO Regulator 6V
+K Voltage Regulator 250mA Positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+$ENDCMP
+#
 $CMP MCP1703
 D Low Quiescent Current LDO Regulator
 K Voltage Regulator 250mA Positive
