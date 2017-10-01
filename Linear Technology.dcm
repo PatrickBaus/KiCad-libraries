@@ -82,4 +82,22 @@ K AmpliOp, Rail-to-Rail, Low Noise
 F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
 $ENDCMP
 #
+$CMP LTC2955-1(DFN)
+D Pushbutton On/Off Controller with Automatic Turn-On
+K Pushbutton
+F https://cds.linear.com/docs/en/datasheet/2955fa.pdf
+$ENDCMP
+#
+$CMP LTC2955-2(DFN)
+D Pushbutton On/Off Controller with Automatic Turn-On
+K Pushbutton
+F https://cds.linear.com/docs/en/datasheet/2955fa.pdf
+$ENDCMP
+#
+$CMP LTC3458
+D 1.4A, 1.5MHz Synchronous Step-Up DC/DC Converter with Output Disconnect
+K Synchronous Step-Up DC/DC
+F https://cds.linear.com/docs/en/datasheet/3458fa.pdf
+$ENDCMP
+#
 #End Doc Library
