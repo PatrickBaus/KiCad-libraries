@@ -28,4 +28,10 @@ D Linear Regulator -15V
 K POWER REGUL
 $ENDCMP
 #
+$CMP NTLJF3117P
+D -20 V, -4.1 A, P-Channel, with 2.0 A Schottky Barrier Diode
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/NTLJF3117P-D.PDF
+$ENDCMP
+#
 #End Doc Library
