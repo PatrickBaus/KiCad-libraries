@@ -10,6 +10,12 @@ D Voltage Output, Unbuffered 16-Bit DAC
 K DAC, 16-bit, SPI
 $ENDCMP
 #
+$CMP AD5681R
+D Tiny 12-Bit SPI nanoDAC+, with ±2 (16-Bit) LSB INL and 2 ppm/°C Reference
+K DAC, 12-bit, SPI
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf
+$ENDCMP
+#
 $CMP AD5762R
 D Complete Dual, 16-Bit, High Accuracy,Serial Input, Bipolar Voltage Output DAC
 K DAC, Dual, 16-bit, bipolar, SPI
@@ -54,17 +60,6 @@ $CMP AD8226
 D Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
 K Instrumentation Amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8226.pdf
-$ENDCMP
-#
-$CMP AD8421
-D 3 nV/√Hz, Low Power, Instrumentation Amplifier
-K Low Noise, Instrumentation Amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8421.pdf
-$ENDCMP
-#
-$CMP AD8429
-D 1 nV/√Hz Low Noise Instrumentation Amplifier
-K Low noise, Instrumentation amplifier
 $ENDCMP
 #
 $CMP AD8510
@@ -199,6 +194,12 @@ $ENDCMP
 $CMP ADR01
 D Ultracompact, Precision 10.0 V Reference
 K Voltage reference, Buffered
+$ENDCMP
+#
+$CMP ADR36x
+D Low Power, Low Noise Voltage References with Sink/Source Capability
+K Voltage reference, Buffered, Series
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR360_361_363_364_365_366.pdf
 $ENDCMP
 #
 $CMP ADR4550
