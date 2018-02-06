@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN6040SSD
+D Dual Transistor N-MOSFET with substrate diode (general)
+K nmos n-mos n-mosfet transistor dual
+$ENDCMP
+#
+$CMP DMN6040SSDQ-13
+D Dual Transistor N-MOSFET with substrate diode (general)
+K nmos n-mos n-mosfet transistor dual
+$ENDCMP
+#
+$CMP DRDC3105
+D Integrated Relay, Inductive Load Driver
+K Relay driver
+$ENDCMP
+#
+$CMP DRDC3105E6
+D Integrated Relay, Inductive Load Driver
+K Relay driver
+$ENDCMP
+#
+#End Doc Library
