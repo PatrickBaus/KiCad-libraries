@@ -107,9 +107,9 @@ F https://cds.linear.com/docs/en/datasheet/2955fa.pdf
 $ENDCMP
 #
 $CMP LTC3536
-D 1.4A, 1.5MHz Synchronous Step-Up DC/DC Converter with Output Disconnect
-K Synchronous Step-Up DC/DC
-F https://cds.linear.com/docs/en/datasheet/3458fa.pdf
+D 1A Low Noise, Buck-Boost DC/DC Converter
+K Buck-Boost DC/DC
+F https://cds.linear.com/docs/en/datasheet/3536fa.pdf
 $ENDCMP
 #
 #End Doc Library
