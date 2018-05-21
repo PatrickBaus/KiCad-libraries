@@ -5,6 +5,12 @@ D 8bits Buffer/Line Driver 3 state Out
 K TTL BUFFER 3State BUS
 $ENDCMP
 #
+$CMP BUF634
+D Fast ±250mA Power Buffer
+K Buffer
+F http://www.ti.com/lit/ds/symlink/buf634.pdf
+$ENDCMP
+#
 $CMP OPA4188
 D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifier
 K Low Noise, Quad Opamp
