@@ -5,6 +5,12 @@ D Precision Reference, 6.95V
 K Reference
 $ENDCMP
 #
+$CMP LT1010
+D Fast ±150mA Power Buffer
+K Buffer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/1010fe.pdf
+$ENDCMP
+#
 $CMP LT1568
 D Very Low Noise, High Frequency Active RC, Filter Building Block
 K Filter, Low Noise
@@ -68,6 +74,12 @@ $CMP LT6232
 D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
 K AmpliOp, Rail-to-Rail, Low Noise
 F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
+$ENDCMP
+#
+$CMP LTC1152
+D Rail-to-Rail Input Rail-to-Rail Output Zero-Drift Op Amp
+K OpAmp, Rail-to-Rail, Zero-Drift
+F http://www.analog.com/media/en/technical-documentation/data-sheets/lt1152.pdf
 $ENDCMP
 #
 $CMP LTC1563-2
