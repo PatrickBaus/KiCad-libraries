@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM2931-ADJ
+D 100mA Low drop-out regulator, Adjustable Output
+K REGULATOR LDO Adjustable
+F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$ENDCMP
+#
 $CMP LP2950ACDT−3.3
 D Positive 10mA 30V Linear Regulator, Fixed Output 3.3V, DPAK
 K Voltage Regulator 100mA Positive
