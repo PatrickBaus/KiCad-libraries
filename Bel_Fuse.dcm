@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Bel_L829-1X1T-91
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer
+F https://www.belfuse.com/resources/ICMs/ICMs%20Drawings/L829-1X1T-91.pdf
+$ENDCMP
+#
+#End Doc Library
