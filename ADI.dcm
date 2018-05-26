@@ -129,6 +129,12 @@ D 4 MHz, 7 nV/√Hz, Low Offset and Drift, High Precision Amplifiers
 K Precision, Quad
 $ENDCMP
 #
+$CMP ADA4084-1_(SOT-23)
+D 30 V, Low Noise, Rail-to-Rail Input/Output, Low Power Operational Amplifiers
+K Op Amp, Low Noise, Rail-to-Rail
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4084-1_4084-2_4084-4.pdf
+$ENDCMP
+#
 $CMP ADA4500-2
 D 10 MHz, 14.5 nV/√Hz, Rail-to-Rail I/O, Zero Input Crossover Distortion Amplifier
 K Dual Op Amp, Rail-to-Rail, Precision, 3.3V
