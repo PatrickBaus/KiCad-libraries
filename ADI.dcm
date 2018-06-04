@@ -232,11 +232,6 @@ K Digital Isolator, Dual, 1:1
 F http://www.mouser.com/ds/2/609/ADuM7240_7241-879078.pdf
 $ENDCMP
 #
-$CMP OP07
-D Precision Operational Amplifier
-K Low noise, Low drift
-$ENDCMP
-#
 $CMP OP467
 D Quad Precision, High Speed Operational Amplifier
 K Quad, precision, op amp
