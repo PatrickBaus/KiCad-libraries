@@ -16,4 +16,10 @@ D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifier
 K Low Noise, Quad Opamp
 $ENDCMP
 #
+$CMP OPA827
+D Low-Noise, High-Precision, JFET-Input Operational Amplifier
+K single opamp jfet low-noise precision
+F http://www.ti.com/lit/ds/symlink/opa827.pdf
+$ENDCMP
+#
 #End Doc Library
