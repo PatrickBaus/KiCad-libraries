@@ -166,6 +166,12 @@ D High Speed, High Voltage, 1 A Output Drive Amplifier
 K High Speed, high current
 $ENDCMP
 #
+$CMP ADA4898-1
+D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
+K Low Noise, Precision, Low Distortion, High Speed
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4898-1_4898-2.pdf
+$ENDCMP
+#
 $CMP ADA4898-2
 D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
 K Low Noise, Dual
