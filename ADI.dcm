@@ -238,12 +238,6 @@ K Digital isolator, Triple, 2:1
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM140D_140E_141D_141E_142D_142E.pdf
 $ENDCMP
 #
-$CMP ADuM141D
-D 3.0 kV RMS/3.75 kV RMS, Quad Digital Isolators
-K Digital isolator, Quad, 3:1
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM140D_140E_141D_141E_142D_142E.pdf
-$ENDCMP
-#
 $CMP ADuM7241
 D 1 kV, Dual Channel Digital Isolator
 K Digital Isolator, Dual, 1:1
