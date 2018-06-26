@@ -11,6 +11,11 @@ K Buffer
 F http://www.ti.com/lit/ds/symlink/buf634.pdf
 $ENDCMP
 #
+$CMP OPA189
+D Lowest-Noise 36-V, Zero-Drift, 14-MHz MUX-Friendly, Rail-to-Rail Output, Operational Amplifiers
+K Op amp, zero-drift, rail-to-rail
+$ENDCMP
+#
 $CMP OPA4188
 D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifier
 K Low Noise, Quad Opamp
