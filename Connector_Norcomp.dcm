@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 684M_13W3_Female
+D 13W3-pin female D-SUB connector
+K female D-SUB connector
+F  ~
+$ENDCMP
+#
+#End Doc Library
