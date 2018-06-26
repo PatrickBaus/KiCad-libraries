@@ -199,6 +199,12 @@ K SPST switch, solid-state switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG5212_5213.pdf
 $ENDCMP
 #
+$CMP ADG5236
+D High Voltage Latch-Up Proof, Dual SPDT Switches
+K SPDT switch, solid-state switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG5236.pdf
+$ENDCMP
+#
 $CMP ADG5412BF
 D ±15 V/+12 V Quad SPDT Switches
 K analog switch, parallel
