@@ -130,4 +130,10 @@ K Buck-Boost DC/DC
 F https://cds.linear.com/docs/en/datasheet/3536fa.pdf
 $ENDCMP
 #
+$CMP LTC6268_TSOT-23
+D 500MHz Ultra-Low Bias Current FET Input Op Amp
+K FET, OpAmp
+F https://cds.linear.com/docs/en/datasheet/62689f.pdf
+$ENDCMP
+#
 #End Doc Library
