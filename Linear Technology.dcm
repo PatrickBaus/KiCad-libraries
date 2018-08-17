@@ -89,21 +89,21 @@ F http://cds.linear.com/docs/en/datasheet/156323fa.pdf
 $ENDCMP
 #
 $CMP LTC2057
-D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
-K AmpliOp, Rail-to-Rail, Low Noise
-F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
+D High Voltage, Low Noise Zero-Drift Operational Amplifier
+K Opamp, Zero-drift
+F http://www.analog.com/media/en/technical-documentation/data-sheets/2057f.pdf
 $ENDCMP
 #
 $CMP LTC2057(DFN)
-D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
-K AmpliOp, Rail-to-Rail, Low Noise
-F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
+D High Voltage, Low Noise Zero-Drift Operational Amplifier
+K Opamp, Zero-drift
+F http://www.analog.com/media/en/technical-documentation/data-sheets/2057f.pdf
 $ENDCMP
 #
 $CMP LTC2057(MSOP-10)
-D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
-K AmpliOp, Rail-to-Rail, Low Noise
-F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
+D High Voltage, Low Noise Zero-Drift Operational Amplifier
+K Opamp, Zero-drift
+F http://www.analog.com/media/en/technical-documentation/data-sheets/2057f.pdf
 $ENDCMP
 #
 $CMP LTC2955-1(DFN)
