@@ -16,6 +16,11 @@ K DAC, 12-bit, SPI
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf
 $ENDCMP
 #
+$CMP AD5760
+D Ultra Stable, 16-Bit ±0.5 LSB INL, Voltage Output DAC
+K DAC, 16-bit, SPI
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5760.pdf
+#
 $CMP AD5762R
 D Complete Dual, 16-Bit, High Accuracy,Serial Input, Bipolar Voltage Output DAC
 K DAC, Dual, 16-bit, bipolar, SPI
