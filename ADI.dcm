@@ -292,9 +292,4 @@ K Low-Offset Precision Low-Input-Bias-Current OPAMP
 F http://www.analog.com/media/en/technical-documentation/data-sheets/OP97.pdf
 $ENDCMP
 #
-$CMP untitled
-D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers
-K Low Noise, Dual Opamp, Precision
-$ENDCMP
-#
 #End Doc Library
