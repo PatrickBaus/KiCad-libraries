@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # FIDUCIAL
@@ -9,7 +9,7 @@ F1 "FIDUCIAL" 0 -150 60 H V C CNN
 F2 "" -100 50 60 H I C CNN
 F3 "" 0 150 60 H V C CNN
 $FPLIST
- Fiducial
+ Fiducial*
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 0 f
