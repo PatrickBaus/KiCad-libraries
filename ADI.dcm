@@ -280,6 +280,12 @@ K Digital Isolator, Dual, 1:1
 F http://www.mouser.com/ds/2/609/ADuM7240_7241-879078.pdf
 $ENDCMP
 #
+$CMP LT6220_(TSOT-23)
+D 60MHz, 20V/µs, Low Power, RIRO, Precision Op Amp
+K Precision, RIRO
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
+$ENDCMP
+#
 $CMP OP467
 D Quad Precision, High Speed Operational Amplifier
 K Quad, precision, op amp
