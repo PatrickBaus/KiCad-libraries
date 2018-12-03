@@ -158,6 +158,11 @@ K Low Noise, Quad Amp, Rail-to-Rail, Auto-Zero, Chopper
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4522-1_4522-2_4522-4.pdf
 $ENDCMP
 #
+$CMP ADA4610-2
+D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers
+K Low Noise, Dual Opamp, Precision
+$ENDCMP
+#
 $CMP ADA4627
 D 30 V, High Speed, Low Noise, Low Bias Current, JFET Operational Amplifier
 K JFET, Precision OpAmp, High Voltage, Low Noise
