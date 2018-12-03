@@ -76,6 +76,12 @@ K AmpliOp, Rail-to-Rail, Low Noise
 F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
 $ENDCMP
 #
+$CMP LTC1052
+D Zero-Drift Operational Amplifier
+K OpAmp, Zero-Drift
+F http://www.analog.com/media/en/technical-documentation/data-sheets/1052fa.pdf
+$ENDCMP
+#
 $CMP LTC1152
 D Rail-to-Rail Input Rail-to-Rail Output Zero-Drift Op Amp
 K OpAmp, Rail-to-Rail, Zero-Drift
