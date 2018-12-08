@@ -1,6 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Rn
+$CMP Rn4
+D Resistor network (4x)
+K r res resistor
+$ENDCMP
+#
+$CMP Rn8
 D Resistor network (8x)
 K r res resistor
 $ENDCMP
