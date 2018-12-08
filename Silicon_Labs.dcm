@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si8650XX
+D Low-Power Quint-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch 3In 2Out Quint Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8651XX
+D Low-Power Quint-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch 3In 2Out Quint Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8652XX
+D Low-Power Quint-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch 3In 2Out Quint Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8662XX
+D Low-Power Quint-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch 3In 2Out Quint Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8663XX
+D Low-Power Quint-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch 3In 2Out Quint Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
