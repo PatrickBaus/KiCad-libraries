@@ -29,6 +29,12 @@ D Single Schmitt trigger buffer
 K Buffer, Schmitt Trigger
 $ENDCMP
 #
+$CMP 74LVC2G14
+D Dual Inverter
+K TTL not inv
+F http://www.ti.com/lit/gpn/sn74LV14
+$ENDCMP
+#
 $CMP 74LVC3G04
 D Triple Inverter
 K TTL not inv
