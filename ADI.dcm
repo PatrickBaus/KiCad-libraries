@@ -285,6 +285,12 @@ K Digital Isolator, Dual, 1:1
 F http://www.mouser.com/ds/2/609/ADuM7240_7241-879078.pdf
 $ENDCMP
 #
+$CMP LT3094EDD
+D –36V, 600mA Negative Linear Regulator with Programmable Current Limit, DFN Package
+K LDO, low noise, high PSRR
+F https://cds.linear.com/docs/en/datasheet/3090fa.pdf
+$ENDCMP
+#
 $CMP LT6220_(TSOT-23)
 D 60MHz, 20V/µs, Low Power, RIRO, Precision Op Amp
 K Precision, RIRO
