@@ -38,12 +38,6 @@ D 2-Terminal IC Temperature Transducer
 K Temperature
 $ENDCMP
 #
-$CMP AD797
-D Ultralow Distortion, Ultralow Noise Op Amp
-K Low Noise, Precision, Low Distortion
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
-$ENDCMP
-#
 $CMP AD8021
 D Low Noise, High Speed Amplifier for 16-Bit Systems
 K Low Noise
