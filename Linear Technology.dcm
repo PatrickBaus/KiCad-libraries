@@ -11,12 +11,6 @@ K Buffer
 F http://www.analog.com/media/en/technical-documentation/data-sheets/1010fe.pdf
 $ENDCMP
 #
-$CMP LT1365
-D Quad 70MHz, 1000V/µs Op Amps
-K Quad, Line Driver
-F https://www.analog.com/media/en/technical-documentation/data-sheets/13645fa.pdf
-$ENDCMP
-#
 $CMP LT1568
 D Very Low Noise, High Frequency Active RC, Filter Building Block
 K Filter, Low Noise
@@ -74,12 +68,6 @@ $CMP LT3667
 D 40V 400mA Step-Down Switching Regulator with Dual Fault Protected LDOs
 K DC/DC, Step-Down, LDO, Dual output
 F https://cds.linear.com/docs/en/datasheet/3667fb.pdf
-$ENDCMP
-#
-$CMP LT6232
-D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
-K AmpliOp, Rail-to-Rail, Low Noise
-F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
 $ENDCMP
 #
 $CMP LTC1052
