@@ -11,6 +11,12 @@ K Buffer
 F http://www.analog.com/media/en/technical-documentation/data-sheets/1010fe.pdf
 $ENDCMP
 #
+$CMP LT1365
+D Quad 70MHz, 1000V/µs Op Amps
+K Quad, Line Driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13645fa.pdf
+$ENDCMP
+#
 $CMP LT1568
 D Very Low Noise, High Frequency Active RC, Filter Building Block
 K Filter, Low Noise

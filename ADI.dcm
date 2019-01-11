@@ -279,6 +279,12 @@ K Digital Isolator, Dual, 1:1
 F http://www.mouser.com/ds/2/609/ADuM7240_7241-879078.pdf
 $ENDCMP
 #
+$CMP LT1365
+D Quad 70MHz, 1000V/µs Op Amps
+K Quad, Line Driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13645fa.pdf
+$ENDCMP
+#
 $CMP LT3094EDD
 D –36V, 600mA Negative Linear Regulator with Programmable Current Limit, DFN Package
 K LDO, low noise, high PSRR
@@ -289,6 +295,12 @@ $CMP LT6220_(TSOT-23)
 D 60MHz, 20V/µs, Low Power, RIRO, Precision Op Amp
 K Precision, RIRO
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
+$ENDCMP
+#
+$CMP LT6232
+D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
+K AmpliOp, Rail-to-Rail, Low Noise
+F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
 $ENDCMP
 #
 $CMP OP467
