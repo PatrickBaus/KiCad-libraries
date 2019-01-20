@@ -188,6 +188,12 @@ D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
 K Low Noise, Dual
 $ENDCMP
 #
+$CMP ADG1222
+D Dual SPST CMOS Analog Switches, normally ON, 60Ohm Ron, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf
+$ENDCMP
+#
 $CMP ADG1334
 D ±15 V/+12 V Quad SPDT Switches
 K analog switch, parallel
