@@ -15,11 +15,6 @@ D 8bits Buffer/Line Driver 3 state Out
 K TTL BUFFER 3State BUS
 $ENDCMP
 #
-$CMP 74LVC125A
-D Quad Buffer
-K Buffer
-$ENDCMP
-#
 $CMP 74LVC1G04
 D Single inverter
 $ENDCMP
@@ -27,6 +22,12 @@ $ENDCMP
 $CMP 74LVC1G17
 D Single Schmitt trigger buffer
 K Buffer, Schmitt Trigger
+$ENDCMP
+#
+$CMP 74LVC2244
+D Dual Inverter
+K TTL not inv
+F http://www.ti.com/lit/gpn/sn74LV14
 $ENDCMP
 #
 $CMP 74LVC2G14
