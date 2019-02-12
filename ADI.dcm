@@ -67,6 +67,12 @@ D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operati
 K JFET, opamp, Precision, Low Noise, Wide Bandwidth
 $ENDCMP
 #
+$CMP AD8615
+D Precision, 20 MHz, CMOS, Rail-to-Rail Input/Output Operational Amplifiers
+K Precision, CMOS op amp, RRIO
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf
+$ENDCMP
+#
 $CMP AD8620
 D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers
 K Low Noise, Dual Opamp, Precision
@@ -189,7 +195,7 @@ K Low Noise, Dual
 $ENDCMP
 #
 $CMP ADG1222
-D Dual SPST CMOS Analog Switches, normally ON, 60Ohm Ron, DIP-8
+D Dual SPST CMOS Analog Switches, normally ON, 120Ohm Ron, MSOP-10, low leakage, low capacitance
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf
 $ENDCMP
