@@ -1668,9 +1668,10 @@ DEF LT6220_(TSOT-23) U 0 20 Y Y 1 F N
 F0 "U" 200 200 50 H V L CNN
 F1 "LT6220_(TSOT-23)" 200 -200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TSOT-23-5" 100 500 50 H I C CNN
-F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/622012fc.pdf" 200 200 50 H I C CNN
+F3 "" 200 200 50 H I C CNN
 F4 "LT6220" 400 400 60 H I C CNN "MFP"
 F5 "Analog Devices" 300 300 60 H I C CNN "MFN"
+ALIAS AD8615AUJZ
 $FPLIST
  TSOT-23-5
 $ENDFPLIST

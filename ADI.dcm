@@ -73,6 +73,12 @@ K Precision, CMOS op amp, RRIO
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf
 $ENDCMP
 #
+$CMP AD8615AUJZ
+D Precision, 20 MHz, CMOS, Rail-to-Rail Input/Output Operational Amplifiers
+K Opamp, Precision, RIRO, CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8615_8616_8618.pdf
+$ENDCMP
+#
 $CMP AD8620
 D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers
 K Low Noise, Dual Opamp, Precision
