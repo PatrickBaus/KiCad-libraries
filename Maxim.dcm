@@ -6,4 +6,10 @@ K Lithium Ion Charger
 F https://datasheets.maximintegrated.com/en/ds/MAX1811.pdf
 $ENDCMP
 #
+$CMP MAX329
+D CMOS double 4-channel analog multiplexer/demultiplexer, Ultra-Low Leakage
+K analog switch selector multiplexer
+F https://datasheets.maximintegrated.com/en/ds/MAX328-MAX329.pdf
+$ENDCMP
+#
 #End Doc Library
