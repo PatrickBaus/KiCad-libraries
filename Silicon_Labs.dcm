@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Si8631XX
+D Low-Power Tripple-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 3Ch 2In 1Out Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si863x-datasheet.pdf
+$ENDCMP
+#
 $CMP Si8650XX
 D Low-Power Quint-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
 K 5Ch 5In Digital Isolator 150Mbps
@@ -21,6 +27,12 @@ $ENDCMP
 $CMP Si8660XX
 D Low-Power Hex-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
 K 6Ch 6In Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/Si866x.pdf
+$ENDCMP
+#
+$CMP Si8661XX
+D Low-Power Hex-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 6Ch 5In 1Out Digital Isolator 150Mbps
 F https://www.silabs.com/documents/public/data-sheets/Si866x.pdf
 $ENDCMP
 #
