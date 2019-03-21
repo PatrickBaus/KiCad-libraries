@@ -203,7 +203,7 @@ $ENDCMP
 $CMP ADG1222
 D Dual SPST CMOS Analog Switches, normally ON, 120Ohm Ron, MSOP-10, low leakage, low capacitance
 K CMOS Analog Switch
-F https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG1221_1222_1223.pdf
 $ENDCMP
 #
 $CMP ADG1334
@@ -306,7 +306,7 @@ $ENDCMP
 $CMP LT3094EDD
 D –36V, 600mA Negative Linear Regulator with Programmable Current Limit, DFN Package
 K LDO, low noise, high PSRR
-F https://cds.linear.com/docs/en/datasheet/3090fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf
 $ENDCMP
 #
 $CMP LT6220_(TSOT-23)
