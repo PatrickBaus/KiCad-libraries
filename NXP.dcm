@@ -20,26 +20,37 @@ D Single inverter
 $ENDCMP
 #
 $CMP 74LVC1G17
-D Single Schmitt trigger buffer
-K Buffer, Schmitt Trigger
+D Single inverter
 $ENDCMP
 #
 $CMP 74LVC2244
-D Dual Inverter
-K TTL not inv
+D Octal buffer/line driver with 30 Ω series termination
+K TTL buffer
 F http://www.ti.com/lit/gpn/sn74LV14
 $ENDCMP
 #
 $CMP 74LVC2G14
 D Dual Inverter
 K TTL not inv
-F http://www.ti.com/lit/gpn/sn74LV14
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G14.pdf
+$ENDCMP
+#
+$CMP 74LVC2G17
+D Dual Buffer with Schmitt Trigger
+K TTL Schmitt Trigger
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G17.pdf
 $ENDCMP
 #
 $CMP 74LVC3G04
 D Triple Inverter
 K TTL not inv
 F http://www.ti.com/lit/gpn/sn74LV14
+$ENDCMP
+#
+$CMP 74LVC3G17
+D Triple Inverter
+K TTL not inv
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G17.pdf
 $ENDCMP
 #
 $CMP 74LVC3G34
