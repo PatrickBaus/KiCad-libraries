@@ -6,10 +6,17 @@ K Lithium Ion Charger
 F https://datasheets.maximintegrated.com/en/ds/MAX1811.pdf
 $ENDCMP
 #
+<<<<<<< Updated upstream
 $CMP MAX329
 D CMOS double 4-channel analog multiplexer/demultiplexer, Ultra-Low Leakage
 K analog switch selector multiplexer
 F https://datasheets.maximintegrated.com/en/ds/MAX328-MAX329.pdf
+=======
+$CMP MAX6070
+D Low-Noise, High-Precision Series Voltage Reference, SOT-23-6
+K Micropower Prevision Voltage Reference 3V
+F https://datasheets.maximintegrated.com/en/ds/MAX6070-MAX6071.pdf
+>>>>>>> Stashed changes
 $ENDCMP
 #
 #End Doc Library
