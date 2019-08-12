@@ -40,4 +40,22 @@ K P-Channel MOSFET
 F https://www.onsemi.com/pub/Collateral/NTLJF3117P-D.PDF
 $ENDCMP
 #
+$CMP Q_DUAL_NMOS_NVMFD5C680NL
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_NMOS_FDMC86160
+D 43A Id, 100V Vds, N-Channel Power MOSFET, 14mOhm Ron, Qg (typ) 15nC, Power33 3.3x3.3mm
+K transistor NMOS N-MOS N-MOSFET
+F https://www.onsemi.com/pub/Collateral/FDMC86160-D.pdf
+$ENDCMP
+#
+$CMP Q_PMOS_FDMS86163P
+D -50A Id, -100V Vds, P-Channel Power MOSFET, 22mOhm Ron, Qg (typ) 42nC, Power56 5x6mm
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 #End Doc Library
