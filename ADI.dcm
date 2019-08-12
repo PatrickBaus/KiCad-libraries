@@ -84,6 +84,12 @@ D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operati
 K Low Noise, Dual Opamp, Precision
 $ENDCMP
 #
+$CMP AD8655
+D Low Noise, Precision CMOS Amplifier
+K Low Noise, Precision, RIRO
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8655_8656.pdf
+$ENDCMP
+#
 $CMP AD8671
 D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifiers
 K Low Noise, Precision
@@ -304,6 +310,12 @@ K Quad, Line Driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/13645fa.pdf
 $ENDCMP
 #
+$CMP LT1999-XX
+D High Voltage, Bidirectional Current Sense Amplifier
+K current monitor shunt sensor bidirectional high low
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1999fd.pdf
+$ENDCMP
+#
 $CMP LT3094EDD
 D –36V, 600mA Negative Linear Regulator with Programmable Current Limit, DFN Package
 K LDO, low noise, high PSRR
@@ -320,6 +332,12 @@ $CMP LT6232
 D 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA Op Amp
 K AmpliOp, Rail-to-Rail, Low Noise
 F http://cds.linear.com/docs/en/datasheet/623012fc.pdf
+$ENDCMP
+#
+$CMP LT8714
+D Bipolar Output Synchronous Controller with Seamless Four Quadrant Operation
+K step-down dcdc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8714f.pdf
 $ENDCMP
 #
 $CMP OP467
