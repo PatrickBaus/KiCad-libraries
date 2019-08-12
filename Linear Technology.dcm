@@ -71,10 +71,22 @@ K LDO, low noise, high PSRR
 F https://cds.linear.com/docs/en/datasheet/3090fa.pdf
 $ENDCMP
 #
+$CMP LT3437xDD
+D High Voltage 500mA, 200kHz Step-Down Switching Regulator with 100µA Quiescent Current
+K step-down dcdc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3437fc.pdf
+$ENDCMP
+#
 $CMP LT3667
 D 40V 400mA Step-Down Switching Regulator with Dual Fault Protected LDOs
 K DC/DC, Step-Down, LDO, Dual output
 F https://cds.linear.com/docs/en/datasheet/3667fb.pdf
+$ENDCMP
+#
+$CMP LT8606xMSE
+D 42V, 350mA Synchronous Step-Down Regulator with 2.5µA Quiescent Current
+K step-down dcdc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT8606-8606B.pdf
 $ENDCMP
 #
 $CMP LTC1052
