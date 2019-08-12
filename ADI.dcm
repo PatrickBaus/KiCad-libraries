@@ -198,6 +198,7 @@ $ENDCMP
 $CMP ADA4898-2
 D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
 K Low Noise, Dual
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4898-1_4898-2.pdf
 $ENDCMP
 #
 $CMP ADG1222
