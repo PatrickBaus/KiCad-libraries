@@ -10,6 +10,12 @@ D Voltage Output, Unbuffered 16-Bit DAC
 K DAC, 16-bit, SPI
 $ENDCMP
 #
+$CMP AD5680
+D 5 V 18-Bit nanoDAC
+K DAC, 18-bit, SPI
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5680.pdf
+$ENDCMP
+#
 $CMP AD5681R
 D Tiny 12-Bit SPI nanoDAC+, with ±2 (16-Bit) LSB INL and 2 ppm/°C Reference
 K DAC, 12-bit, SPI
@@ -25,12 +31,6 @@ $ENDCMP
 $CMP AD5762R
 D Complete Dual, 16-Bit, High Accuracy,Serial Input, Bipolar Voltage Output DAC
 K DAC, Dual, 16-bit, bipolar, SPI
-$ENDCMP
-#
-$CMP AD5780
-D 5 V 18-Bit nanoDAC
-K DAC, 18-bit, SPI
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5781.pdf
 $ENDCMP
 #
 $CMP AD5781
