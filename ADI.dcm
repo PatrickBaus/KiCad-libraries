@@ -22,6 +22,12 @@ K DAC, 12-bit, SPI
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5683R_5682R_5681R_5683.pdf
 $ENDCMP
 #
+$CMP AD568xR
+D Quad, 16-/14-/12-Bit nanoDAC+ with 2 ppm/K Reference, SPI Interface
+K dac 4ch 12bit 14bit 16bit spi
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5686R_5685R_5684R.pdf
+$ENDCMP
+#
 $CMP AD5760
 D Ultra Stable, 16-Bit ±0.5 LSB INL, Voltage Output DAC
 K DAC, 16-bit, SPI
