@@ -47,14 +47,8 @@ K LDO, low noise, dual, postive, negative, fixed
 F https://cds.linear.com/docs/en/datasheet/3032ff.pdf
 $ENDCMP
 #
-$CMP LT3045EDD
+$CMP LT3045xDD
 D 20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator, DFN Package
-K LDO, low noise, high PSRR
-F https://cds.linear.com/docs/en/datasheet/3045f.pdf
-$ENDCMP
-#
-$CMP LT3045EMSE
-D 20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP Package
 K LDO, low noise, high PSRR
 F https://cds.linear.com/docs/en/datasheet/3045f.pdf
 $ENDCMP
