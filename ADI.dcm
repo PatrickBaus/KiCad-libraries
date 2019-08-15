@@ -269,8 +269,8 @@ K Voltage reference, Buffered, Series
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR360_361_363_364_365_366.pdf
 $ENDCMP
 #
-$CMP ADR4550
-D Ultralow Noise, High Accuracy, Voltage References, 5V
+$CMP ADR45xx
+D Ultralow Noise, High Accuracy, Voltage References
 K Voltage reference, Buffered, Series
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
 $ENDCMP
