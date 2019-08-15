@@ -347,6 +347,12 @@ K step-down dcdc
 F https://www.analog.com/media/en/technical-documentation/data-sheets/8714f.pdf
 $ENDCMP
 #
+$CMP LTC3260xDE
+D Low Noise Dual Supply Inverting Charge Pump, 50 mA, 4.5 V - 32 V
+K Low-noise inverting charge pump LDO
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3260fa.pdf
+$ENDCMP
+#
 $CMP OP467
 D Quad Precision, High Speed Operational Amplifier
 K Quad, precision, op amp
