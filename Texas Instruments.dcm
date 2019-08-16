@@ -19,6 +19,7 @@ $ENDCMP
 $CMP OPA4188
 D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifier
 K Low Noise, Quad Opamp
+F https://www.ti.com/lit/ds/symlink/opa4188.pdf
 $ENDCMP
 #
 $CMP OPA827
