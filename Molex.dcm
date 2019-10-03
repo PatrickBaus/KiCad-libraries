@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP DVI-I
-D Molex 74320-1004, DVI-I
-K DVI, DVI-I
+D DVI-I dual link connector
+K dvi conn dual
 $ENDCMP
 #
 #End Doc Library
