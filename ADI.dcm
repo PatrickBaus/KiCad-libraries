@@ -187,6 +187,12 @@ D 30 V, High Speed, Low Noise, Low Bias Current, JFET Operational Amplifier
 K JFET, Precision OpAmp, High Voltage, Low Noise
 $ENDCMP
 #
+$CMP ADA4691-4_(QFN)
+D Low Power, 3.6 MHz, Low Noise, Rail-to-Rail Output, Operational Amplifiers
+K Quad, RRO
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4691-2_4691-4_4692-2_4692-4.pdf
+$ENDCMP
+#
 $CMP ADA4841
 D Low Power, Low Noise and Distortion, Rail-to-Rail Output Amplifier
 K Low Noise, Rail-to-Rail, Low Power
