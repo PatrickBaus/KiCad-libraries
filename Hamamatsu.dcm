@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D_Photo_3pins
+D Photodiode
+K photodiode diode opto
+$ENDCMP
+#
+#End Doc Library

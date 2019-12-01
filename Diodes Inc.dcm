@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Q_DUAL_NMOS_PMOS_DMG6601LVT
+D Dual NMOS/PMOS transistor, 6-pin package
+K dual nmos/pmos mosfet
+F ~
+$ENDCMP
+#
 #End Doc Library

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# D_Photo_3pins
+#
+DEF D_Photo_3pins D 0 40 N N 1 F N
+F0 "D" 20 70 50 H V L CNN
+F1 "D_Photo_3pins" -40 -110 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+$FPLIST
+ *photodiode*
+$ENDFPLIST
+DRAW
+C -50 0 112 0 1 0 N
+P 2 0 1 8 -100 50 -100 -50 N
+P 2 0 1 0 -80 70 -60 70 N
+P 2 0 1 0 0 0 -100 0 N
+P 3 0 1 0 -20 130 -80 70 -80 90 N
+P 4 0 1 8 0 -50 0 50 -100 0 0 -50 N
+P 5 0 1 0 30 130 -30 70 -30 90 -30 70 -10 70 N
+X K 1 -200 0 100 R 50 50 1 1 P
+X Case 2 -50 -200 85 U 50 50 1 1 P
+X A 3 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
