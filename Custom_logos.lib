@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Logo_APQ
+#
+DEF Logo_APQ #LOGO 0 40 Y Y 1 F N
+F0 "#LOGO" 0 275 50 H I C CNN
+F1 "Logo_APQ" 0 -250 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -150 0 50 0 1 0 F
+C -150 150 50 0 1 0 F
+C 0 0 50 0 1 0 F
+C 0 150 50 0 1 0 F
+C 150 150 50 0 1 0 F
+C -150 -150 50 1 1 0 F
+C 0 -150 50 1 1 0 F
+C 150 -150 50 1 1 0 F
+C 150 0 50 1 1 0 F
+T 0 700 0 300 0 0 0 APQ Normal 1 C C
+ENDDRAW
+ENDDEF
+#
+#End Library
