@@ -1,7 +1,7 @@
 # KiCad-libraries
 Kicad component libraries
 
-To add them to your project run in your project folder:
+To add them to your project run the following command in your project folder:
 
 >git submodule add https://github.com/PatrickBaus/KiCad-libraries.git libraries
 
