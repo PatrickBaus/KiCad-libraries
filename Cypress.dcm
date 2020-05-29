@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FM24CL16B
+D 16-Kbit (2K × 8) Serial FRAM
+K FRAM Serial I2C
+$ENDCMP
+#
 #End Doc Library
