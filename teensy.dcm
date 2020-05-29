@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Teensy-LC
+D 32-bit Microcontroller, 48 MHz, ARM Cortex-M0+
+K MCU 32-bit Microcontroller ARM
+$ENDCMP
+#
 #End Doc Library
