@@ -6,4 +6,10 @@ K Logo
 F ~
 $ENDCMP
 #
+$CMP Logo_RoHS
+D RoHS logo, small
+K Logo
+F ~
+$ENDCMP
+#
 #End Doc Library
