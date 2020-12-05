@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LEMO3
+D 3-pin LEMO socket
+K LEMO socket
+F  ~
+$ENDCMP
+#
+$CMP LEMO3_shielded
+D 3-pin LEMO socket
+K LEMO socket
+F  ~
+$ENDCMP
+#
+#End Doc Library
