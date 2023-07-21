@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DVI-I
-D DVI-I dual link connector
-K dvi conn dual
-$ENDCMP
-#
-#End Doc Library
