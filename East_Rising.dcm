@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ER-TFT1.44-1
-D 1.44" TFT Serial SPI 128X128 LCD Display Module w/ST7735
-K TFT ST7735
-F https://www.buydisplay.com/download/manual/ER-TFT1.44-1_Datasheet.pdf
-$ENDCMP
-#
-#End Doc Library
