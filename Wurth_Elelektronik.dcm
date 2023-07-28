@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP WE-TVS-82400102
-D Bidirectional ESD Protection Diode, SOT-23-6
-K usb ethernet
-F https://www.we-online.de/katalog/datasheet/82400102.pdf
-$ENDCMP
-#
-#End Doc Library
