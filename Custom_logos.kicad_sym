@@ -1223,7 +1223,10 @@
     (property "ki_keywords" "symbol logo rohs" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "RoHS logo" (at 0 0 0)
+    (property "ki_description" "RoHS (Restriction of Hazardous Substances Directive) logo" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "RoHS?Logo*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SYM_RoHS_1_0"
