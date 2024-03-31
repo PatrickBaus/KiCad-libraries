@@ -11001,9 +11001,6 @@
 		)
 	)
 	(symbol "ADM1270ACPZ"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11016,7 +11013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADM1270"
+		(property "Value" "ADM1270ACPZ"
 			(at 2.54 -15.24 0)
 			(effects
 				(font
@@ -11025,7 +11022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.5x1.5mm"
 			(at 3.81 -15.24 0)
 			(effects
 				(font
@@ -11044,7 +11041,7 @@
 			)
 		)
 		(property "Description" "High Voltage Input Protection Device"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11058,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SOP*3x3mm*P0.5mm*"
+		(property "ki_fp_filters" "*QFN*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11072,8 +11069,8 @@
 		)
 		(symbol "ADM1270ACPZ_0_1"
 			(rectangle
-				(start -8.89 12.7)
-				(end 8.89 -12.7)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -11084,7 +11081,7 @@
 			)
 		)
 		(symbol "ADM1270ACPZ_1_0"
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "EP"
@@ -11123,7 +11120,7 @@
 		)
 		(symbol "ADM1270ACPZ_1_1"
 			(pin power_out line
-				(at -11.43 -2.54 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "VCAP"
 					(effects
@@ -11141,7 +11138,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "FB_PG"
 					(effects
@@ -11159,7 +11156,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 5.08 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "FLB"
 					(effects
@@ -11177,7 +11174,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 11.43 -5.08 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "PGD"
 					(effects
@@ -11195,7 +11192,7 @@
 				)
 			)
 			(pin output line
-				(at 6.35 15.24 270)
+				(at 7.62 15.24 270)
 				(length 2.54)
 				(name "GATE"
 					(effects
@@ -11213,7 +11210,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 15.24 270)
+				(at -2.54 15.24 270)
 				(length 2.54)
 				(name "SENSE-"
 					(effects
@@ -11231,7 +11228,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 15.24 270)
+				(at -7.62 15.24 270)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -11249,7 +11246,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 0 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "RPFG"
 					(effects
@@ -11267,7 +11264,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -7.62 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -11285,7 +11282,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 5.08 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "UV"
 					(effects
@@ -11303,7 +11300,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 2.54 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "OV"
 					(effects
@@ -11321,7 +11318,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -5.08 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "ENABLE"
 					(effects
@@ -11339,7 +11336,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 11.43 -7.62 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "~{FAULT}"
 					(effects
@@ -11357,7 +11354,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 0 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "TIMER"
 					(effects
@@ -11375,7 +11372,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "TIMER_OFF"
 					(effects
@@ -11395,9 +11392,6 @@
 		)
 	)
 	(symbol "ADM1270ARQZ"
-		(pin_names
-			(offset 1.016)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11410,7 +11404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADM1270"
+		(property "Value" "ADM1270ARQZ"
 			(at 2.54 -15.24 0)
 			(effects
 				(font
@@ -11455,7 +11449,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*QSOP*3.9x4.9mm*P0.5mm*"
+		(property "ki_fp_filters" "*QSOP*3.9x4.9mm*P0.635mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11466,8 +11460,8 @@
 		)
 		(symbol "ADM1270ARQZ_0_1"
 			(rectangle
-				(start -8.89 12.7)
-				(end 8.89 -12.7)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -11499,7 +11493,7 @@
 		)
 		(symbol "ADM1270ARQZ_1_1"
 			(pin power_in line
-				(at -6.35 15.24 270)
+				(at -7.62 15.24 270)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -11517,7 +11511,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 0 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "TIMER"
 					(effects
@@ -11535,7 +11529,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "TIMER_OFF"
 					(effects
@@ -11553,7 +11547,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "FB_PG"
 					(effects
@@ -11571,7 +11565,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 5.08 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "FLB"
 					(effects
@@ -11589,7 +11583,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 11.43 -5.08 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "PGD"
 					(effects
@@ -11607,7 +11601,7 @@
 				)
 			)
 			(pin output line
-				(at 6.35 15.24 270)
+				(at 7.62 15.24 270)
 				(length 2.54)
 				(name "GATE"
 					(effects
@@ -11625,7 +11619,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 15.24 270)
+				(at -2.54 15.24 270)
 				(length 2.54)
 				(name "SENSE-"
 					(effects
@@ -11643,7 +11637,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 0 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "RPFG"
 					(effects
@@ -11661,7 +11655,7 @@
 				)
 			)
 			(pin power_out line
-				(at -11.43 -2.54 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "VCAP"
 					(effects
@@ -11679,7 +11673,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -7.62 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -11697,7 +11691,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 5.08 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "UV"
 					(effects
@@ -11715,7 +11709,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 2.54 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "OV"
 					(effects
@@ -11733,7 +11727,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -5.08 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "ENABLE"
 					(effects
@@ -11751,7 +11745,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 11.43 -7.62 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "~{FAULT}"
 					(effects
