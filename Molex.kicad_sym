@@ -1,302 +1,1809 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "DVI-I" (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at -6.35 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "DVI-I" (at 10.16 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0.635 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0.635 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "dvi conn dual" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "DVI-I dual link connector" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "HDMI*A*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "DVI-I_0_0"
-      (polyline
-        (pts
-          (xy -1.27 12.7)
-          (xy 4.318 12.7)
-          (xy 6.858 11.43)
-          (xy 6.858 -10.414)
-          (xy 4.318 -11.684)
-          (xy -1.27 -11.684)
-          (xy -1.27 12.7)
-        )
-        (stroke (width 0.508) (type solid))
-        (fill (type none))
-      )
-      (text "Dual Link" (at 2.54 15.24 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (text "DVI-I" (at 2.54 17.78 0)
-        (effects (font (size 2.032 2.032) bold))
-      )
-    )
-    (symbol "DVI-I_0_1"
-      (rectangle (start -10.16 25.4) (end 10.16 -48.26)
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-    )
-    (symbol "DVI-I_1_1"
-      (polyline
-        (pts
-          (xy 1.016 9.144)
-          (xy 4.572 9.144)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.794 10.922)
-          (xy 2.794 7.366)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-      (rectangle (start 0.254 -8.636) (end 1.27 -9.652)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 0.254 -6.604) (end 1.27 -7.62)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 0.254 -4.572) (end 1.27 -5.588)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 0.254 -2.54) (end 1.27 -3.556)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 0.254 -0.508) (end 1.27 -1.524)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 0.254 1.524) (end 1.27 0.508)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 0.254 3.556) (end 1.27 2.54)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 0.254 5.588) (end 1.27 4.572)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 1.27 8.636) (end 2.286 7.62)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 1.27 10.668) (end 2.286 9.652)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 -8.636) (end 3.302 -9.652)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 -6.604) (end 3.302 -7.62)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 -4.572) (end 3.302 -5.588)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 -2.54) (end 3.302 -3.556)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 -0.508) (end 3.302 -1.524)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 1.524) (end 3.302 0.508)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 3.556) (end 3.302 2.54)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 2.286 5.588) (end 3.302 4.572)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 3.302 8.636) (end 4.318 7.62)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 3.302 10.668) (end 4.318 9.652)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 -8.636) (end 5.334 -9.652)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 -6.604) (end 5.334 -7.62)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 -4.572) (end 5.334 -5.588)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 -2.54) (end 5.334 -3.556)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 -0.508) (end 5.334 -1.524)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 1.524) (end 5.334 0.508)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 3.556) (end 5.334 2.54)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 4.318 5.588) (end 5.334 4.572)
-        (stroke (width 0.508) (type solid))
-        (fill (type outline))
-      )
-      (pin passive line (at -12.7 17.78 0) (length 2.54)
-        (name "D2-" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 15.24 0) (length 2.54)
-        (name "D1+" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -50.8 90) (length 2.54)
-        (name "D1/3S" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -2.54 0) (length 2.54)
-        (name "D3-" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 0 0) (length 2.54)
-        (name "D3+" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 27.94 270) (length 2.54)
-        (name "+5V" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 2.54 -50.8 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -38.1 0) (length 2.54)
-        (name "HPD" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 7.62 0) (length 2.54)
-        (name "D0-" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 10.16 0) (length 2.54)
-        (name "D0+" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -50.8 90) (length 2.54)
-        (name "D0/5S" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 20.32 0) (length 2.54)
-        (name "D2+" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -7.62 0) (length 2.54)
-        (name "D5-" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -5.08 0) (length 2.54)
-        (name "D5+" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 90) (length 2.54)
-        (name "CKS" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive clock (at -12.7 -10.16 0) (length 2.54)
-        (name "CK+" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive clock (at -12.7 -12.7 0) (length 2.54)
-        (name "CK-" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -7.62 -50.8 90) (length 2.54)
-        (name "D2/4S" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 2.54 0) (length 2.54)
-        (name "D4-" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 5.08 0) (length 2.54)
-        (name "D4+" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive clock (at -12.7 -30.48 0) (length 2.54)
-        (name "DDCCL" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -12.7 -33.02 0) (length 2.54)
-        (name "DDCIO" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -25.4 0) (length 2.54)
-        (name "VSYNC" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 12.7 0) (length 2.54)
-        (name "D1-" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -15.24 0) (length 2.54)
-        (name "Red" (effects (font (size 1.27 1.27))))
-        (number "C1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -17.78 0) (length 2.54)
-        (name "Green" (effects (font (size 1.27 1.27))))
-        (number "C2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -20.32 0) (length 2.54)
-        (name "Blue" (effects (font (size 1.27 1.27))))
-        (number "C3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -12.7 -22.86 0) (length 2.54)
-        (name "HSYNC" (effects (font (size 1.27 1.27))))
-        (number "C4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 5.08 -50.8 90) (length 2.54)
-        (name "GNDA" (effects (font (size 1.27 1.27))))
-        (number "C5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 -50.8 90) (length 2.54)
-        (name "SH" (effects (font (size 1.27 1.27))))
-        (number "SH" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "DVI-D"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -6.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DVI-D"
+			(at 10.16 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743204004_sd.pdf?inline"
+			(at 0.635 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DVI-D dual link connector"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "dvi conn digital visual interface"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDMI*A*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DVI-D_0_0"
+			(polyline
+				(pts
+					(xy -1.27 15.24) (xy 4.318 15.24) (xy 6.858 13.97) (xy 6.858 -7.874) (xy 4.318 -9.144) (xy -1.27 -9.144)
+					(xy -1.27 15.24)
+				)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Dual Link"
+				(at 2.54 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "DVI-D"
+				(at 2.54 20.32 0)
+				(effects
+					(font
+						(size 2.032 2.032)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "DVI-D_1_1"
+			(rectangle
+				(start -10.16 27.94)
+				(end 10.16 -25.4)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 13.462) (xy 2.794 9.906)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.254 -6.096)
+				(end 1.27 -7.112)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 -4.064)
+				(end 1.27 -5.08)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 -2.032)
+				(end 1.27 -3.048)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 0)
+				(end 1.27 -1.016)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 2.032)
+				(end 1.27 1.016)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 4.064)
+				(end 1.27 3.048)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 6.096)
+				(end 1.27 5.08)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 8.128)
+				(end 1.27 7.112)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 -6.096)
+				(end 3.302 -7.112)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 -4.064)
+				(end 3.302 -5.08)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 -2.032)
+				(end 3.302 -3.048)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 0)
+				(end 3.302 -1.016)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 2.032)
+				(end 3.302 1.016)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 4.064)
+				(end 3.302 3.048)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 6.096)
+				(end 3.302 5.08)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 8.128)
+				(end 3.302 7.112)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 -6.096)
+				(end 5.334 -7.112)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 -4.064)
+				(end 5.334 -5.08)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 -2.032)
+				(end 5.334 -3.048)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 0)
+				(end 5.334 -1.016)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 2.032)
+				(end 5.334 1.016)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 4.064)
+				(end 5.334 3.048)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 6.096)
+				(end 5.334 5.08)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 8.128)
+				(end 5.334 7.112)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -12.7 22.86 0)
+				(length 2.54)
+				(name "D2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 20.32 0)
+				(length 2.54)
+				(name "D1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -27.94 90)
+				(length 2.54)
+				(name "D1/3S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "D3-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "D3+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 30.48 270)
+				(length 2.54)
+				(name "+5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -27.94 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -17.78 0)
+				(length 2.54)
+				(name "HPD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "D0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "D0+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 90)
+				(length 2.54)
+				(name "D0/5S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 25.4 0)
+				(length 2.54)
+				(name "D2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "D5-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "D5+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -27.94 90)
+				(length 2.54)
+				(name "CKS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "CK+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "CK-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -27.94 90)
+				(length 2.54)
+				(name "D2/4S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "D4-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "D4+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -12.7 -12.7 0)
+				(length 2.54)
+				(name "DDCCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -15.24 0)
+				(length 2.54)
+				(name "DDCIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "D1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -27.94 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "DVI-I"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -6.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DVI-I"
+			(at 10.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.635 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.635 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DVI-I dual link connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "dvi conn dual"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDMI*A*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DVI-I_0_0"
+			(polyline
+				(pts
+					(xy -1.27 20.32) (xy 4.318 20.32) (xy 6.858 19.05) (xy 6.858 -2.794) (xy 4.318 -4.064) (xy -1.27 -4.064)
+					(xy -1.27 20.32)
+				)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Dual Link"
+				(at 2.54 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "DVI-I"
+				(at 2.54 25.4 0)
+				(effects
+					(font
+						(size 2.032 2.032)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "DVI-I_0_1"
+			(rectangle
+				(start -10.16 33.02)
+				(end 10.16 -33.02)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DVI-I_1_1"
+			(polyline
+				(pts
+					(xy 1.016 16.764) (xy 4.572 16.764)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 18.542) (xy 2.794 14.986)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.254 -1.016)
+				(end 1.27 -2.032)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 1.016)
+				(end 1.27 0)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 3.048)
+				(end 1.27 2.032)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 5.08)
+				(end 1.27 4.064)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 7.112)
+				(end 1.27 6.096)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 9.144)
+				(end 1.27 8.128)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 11.176)
+				(end 1.27 10.16)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 13.208)
+				(end 1.27 12.192)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 16.256)
+				(end 2.286 15.24)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 18.288)
+				(end 2.286 17.272)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 -1.016)
+				(end 3.302 -2.032)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 1.016)
+				(end 3.302 0)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 3.048)
+				(end 3.302 2.032)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 5.08)
+				(end 3.302 4.064)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 7.112)
+				(end 3.302 6.096)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 9.144)
+				(end 3.302 8.128)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 11.176)
+				(end 3.302 10.16)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.286 13.208)
+				(end 3.302 12.192)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 3.302 16.256)
+				(end 4.318 15.24)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 3.302 18.288)
+				(end 4.318 17.272)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 -1.016)
+				(end 5.334 -2.032)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 1.016)
+				(end 5.334 0)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 3.048)
+				(end 5.334 2.032)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 5.08)
+				(end 5.334 4.064)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 7.112)
+				(end 5.334 6.096)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 9.144)
+				(end 5.334 8.128)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 11.176)
+				(end 5.334 10.16)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 4.318 13.208)
+				(end 5.334 12.192)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -12.7 27.94 0)
+				(length 2.54)
+				(name "D2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 25.4 0)
+				(length 2.54)
+				(name "D1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -35.56 90)
+				(length 2.54)
+				(name "D1/3S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "D3-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "D3+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 35.56 270)
+				(length 2.54)
+				(name "+5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -35.56 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -25.4 0)
+				(length 2.54)
+				(name "HPD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "D0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 20.32 0)
+				(length 2.54)
+				(name "D0+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -35.56 90)
+				(length 2.54)
+				(name "D0/5S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 30.48 0)
+				(length 2.54)
+				(name "D2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "D5-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "D5+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35.56 90)
+				(length 2.54)
+				(name "CKS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "CK+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "CK-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -35.56 90)
+				(length 2.54)
+				(name "D2/4S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "D4-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "D4+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -12.7 -20.32 0)
+				(length 2.54)
+				(name "DDCCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -22.86 0)
+				(length 2.54)
+				(name "DDCIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -15.24 0)
+				(length 2.54)
+				(name "VSYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 22.86 0)
+				(length 2.54)
+				(name "D1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "Red"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "Green"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "Blue"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -12.7 0)
+				(length 2.54)
+				(name "HSYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -35.56 90)
+				(length 2.54)
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -35.56 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
