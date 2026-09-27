@@ -235,7 +235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_footprints_project:QED-logo_small"
+		(property "Footprint" "Custom_footprints_project:QED-logo_small"
 			(at -6.35 0 0)
 			(show_name no)
 			(do_not_autoplace no)
