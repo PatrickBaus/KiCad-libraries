@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "Logo_APQ"
 		(pin_names
 			(offset 1.016)
@@ -9,67 +9,83 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#SYM"
 			(at 0 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Logo_APQ"
 			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at -6.35 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Atoms - Photons - Quanta"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Enable" "0"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Logo"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Logo_APQ_0_0"
@@ -192,97 +208,119 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SYM1"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Logo_QED"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "custom_footprints_project:QED-logo_small"
 			(at -6.35 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Copyright Quantum Electronic Devices"
 			(at 6.604 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFN" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PN" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RoHS" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Logo"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Logo_QED_1_1"
@@ -329,76 +367,94 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at 0 4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "MountingScrew"
 			(at 0 -3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingEquipment:MountingScrew"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting screw"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Enable" "0"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "mounting screw"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "MountingScrew*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MountingScrew_0_1"
@@ -486,58 +542,72 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#G"
 			(at 0 3.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "QR_Code"
 			(at 0 -3.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Enable" "0"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "QR_Code_0_0"
@@ -898,79 +968,97 @@
 		(embedded_fonts no)
 	)
 	(symbol "SYM_RoHS"
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#SYM"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SYM_RoHS"
 			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 7.62 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "RoHS (Restriction of Hazardous Substances Directive) logo"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Enable" "0"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "symbol logo rohs"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "RoHS?Logo*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SYM_RoHS_1_0"
@@ -981,6 +1069,257 @@
 						(size 3.81 3.81)
 						(bold yes)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SYM_WEEE"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#SYM"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_WEEE"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 7.62 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WEEE (Waste from Electrical and Electronic Equipment) logo"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "symbol logo weee"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RoHS?Logo*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SYM_WEEE_1_0"
+			(polyline
+				(pts
+					(xy 1.3787 -2.1359) (xy 1.3897 -2.1367) (xy 1.4005 -2.1381) (xy 1.4112 -2.14) (xy 1.4216 -2.1424)
+					(xy 1.4319 -2.1454) (xy 1.4419 -2.1488) (xy 1.4517 -2.1526) (xy 1.4613 -2.157) (xy 1.4706 -2.1617)
+					(xy 1.4797 -2.1669) (xy 1.4885 -2.1726) (xy 1.497 -2.1786) (xy 1.5051 -2.185) (xy 1.513 -2.1918)
+					(xy 1.5205 -2.199) (xy 1.5276 -2.2065) (xy 1.5344 -2.2143) (xy 1.5408 -2.2225) (xy 1.5469 -2.231)
+					(xy 1.5525 -2.2397) (xy 1.5577 -2.2488) (xy 1.5625 -2.2581) (xy 1.5668 -2.2677) (xy 1.5707 -2.2775)
+					(xy 1.5741 -2.2876) (xy 1.577 -2.2978) (xy 1.5794 -2.3083) (xy 1.5813 -2.3189) (xy 1.5827 -2.3297)
+					(xy 1.5835 -2.3407) (xy 1.5838 -2.3518) (xy 1.5835 -2.363) (xy 1.5827 -2.3739) (xy 1.5813 -2.3848)
+					(xy 1.5794 -2.3954) (xy 1.577 -2.4059) (xy 1.5741 -2.4161) (xy 1.5707 -2.4262) (xy 1.5668 -2.436)
+					(xy 1.5625 -2.4456) (xy 1.5577 -2.4549) (xy 1.5525 -2.464) (xy 1.5469 -2.4727) (xy 1.5408 -2.4812)
+					(xy 1.5344 -2.4894) (xy 1.5276 -2.4972) (xy 1.5205 -2.5047) (xy 1.513 -2.5119) (xy 1.5051 -2.5187)
+					(xy 1.497 -2.5251) (xy 1.4885 -2.5311) (xy 1.4797 -2.5367) (xy 1.4706 -2.5419) (xy 1.4613 -2.5467)
+					(xy 1.4517 -2.551) (xy 1.4419 -2.5549) (xy 1.4319 -2.5583) (xy 1.4216 -2.5612) (xy 1.4112 -2.5636)
+					(xy 1.4005 -2.5655) (xy 1.3897 -2.5669) (xy 1.3787 -2.5678) (xy 1.3676 -2.568) (xy 1.3565 -2.5678)
+					(xy 1.3455 -2.5669) (xy 1.3347 -2.5655) (xy 1.324 -2.5636) (xy 1.3136 -2.5612) (xy 1.3033 -2.5583)
+					(xy 1.2933 -2.5549) (xy 1.2834 -2.551) (xy 1.2739 -2.5467) (xy 1.2645 -2.5419) (xy 1.2555 -2.5367)
+					(xy 1.2467 -2.5311) (xy 1.2382 -2.5251) (xy 1.2301 -2.5187) (xy 1.2222 -2.5119) (xy 1.2147 -2.5047)
+					(xy 1.2075 -2.4972) (xy 1.2008 -2.4894) (xy 1.1943 -2.4812) (xy 1.1883 -2.4727) (xy 1.1827 -2.4639)
+					(xy 1.1775 -2.4549) (xy 1.1727 -2.4456) (xy 1.1684 -2.436) (xy 1.1645 -2.4262) (xy 1.1611 -2.4161)
+					(xy 1.1582 -2.4059) (xy 1.1558 -2.3954) (xy 1.1539 -2.3848) (xy 1.1525 -2.3739) (xy 1.1517 -2.363)
+					(xy 1.1514 -2.3518) (xy 1.1517 -2.3407) (xy 1.1525 -2.3297) (xy 1.1539 -2.3189) (xy 1.1558 -2.3083)
+					(xy 1.1582 -2.2978) (xy 1.1611 -2.2876) (xy 1.1645 -2.2775) (xy 1.1684 -2.2677) (xy 1.1727 -2.2581)
+					(xy 1.1775 -2.2488) (xy 1.1827 -2.2397) (xy 1.1883 -2.231) (xy 1.1943 -2.2225) (xy 1.2008 -2.2143)
+					(xy 1.2075 -2.2065) (xy 1.2147 -2.199) (xy 1.2222 -2.1918) (xy 1.2301 -2.185) (xy 1.2382 -2.1786)
+					(xy 1.2467 -2.1726) (xy 1.2555 -2.1669) (xy 1.2645 -2.1617) (xy 1.2739 -2.157) (xy 1.2834 -2.1526)
+					(xy 1.2933 -2.1488) (xy 1.3033 -2.1454) (xy 1.3136 -2.1424) (xy 1.324 -2.14) (xy 1.3347 -2.1381)
+					(xy 1.3455 -2.1367) (xy 1.3565 -2.1359) (xy 1.3676 -2.1356) (xy 1.3787 -2.1359)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.9778 3.9122) (xy 2.2775 2.1803) (xy 2.3129 2.1803) (xy 2.3129 1.4053) (xy 1.8067 1.4053)
+					(xy 1.5364 -1.4948) (xy 3.5358 -3.6006) (xy 3.4031 -3.7264) (xy 1.9989 -2.2451) (xy 2.0009 -2.2582)
+					(xy 2.0027 -2.2713) (xy 2.0042 -2.2845) (xy 2.0055 -2.2979) (xy 2.0065 -2.3112) (xy 2.0072 -2.3247)
+					(xy 2.0076 -2.3382) (xy 2.0077 -2.3518) (xy 2.0069 -2.3848) (xy 2.0044 -2.4173) (xy 2.0004 -2.4493)
+					(xy 1.9947 -2.4809) (xy 1.9876 -2.5118) (xy 1.9789 -2.5422) (xy 1.9689 -2.5719) (xy 1.9574 -2.601)
+					(xy 1.9446 -2.6294) (xy 1.9305 -2.657) (xy 1.9151 -2.6838) (xy 1.8984 -2.7097) (xy 1.8806 -2.7348)
+					(xy 1.8616 -2.759) (xy 1.8414 -2.7823) (xy 1.8202 -2.8045) (xy 1.798 -2.8257) (xy 1.7748 -2.8458)
+					(xy 1.7506 -2.8648) (xy 1.7255 -2.8826) (xy 1.6995 -2.8993) (xy 1.6727 -2.9147) (xy 1.6451 -2.9288)
+					(xy 1.6168 -2.9417) (xy 1.5877 -2.9531) (xy 1.558 -2.9632) (xy 1.5276 -2.9718) (xy 1.4966 -2.979)
+					(xy 1.4651 -2.9846) (xy 1.4331 -2.9887) (xy 1.4005 -2.9911) (xy 1.3676 -2.992) (xy 1.322 -2.9904)
+					(xy 1.2772 -2.9856) (xy 1.2334 -2.9779) (xy 1.1907 -2.9672) (xy 1.1492 -2.9537) (xy 1.1089 -2.9375)
+					(xy 1.0701 -2.9188) (xy 1.0328 -2.8975) (xy 0.9971 -2.8739) (xy 0.9631 -2.848) (xy 0.9309 -2.8199)
+					(xy 0.9007 -2.7898) (xy 0.8726 -2.7577) (xy 0.8466 -2.7238) (xy 0.8229 -2.6882) (xy 0.8015 -2.6509)
+					(xy -0.7639 -2.6509) (xy -0.7639 -2.9853) (xy -1.1757 -2.9853) (xy -1.1757 -2.6501) (xy -1.1802 -2.6493)
+					(xy -1.1847 -2.6484) (xy -1.1892 -2.6472) (xy -1.1936 -2.6458) (xy -1.198 -2.6442) (xy -1.2024 -2.6424)
+					(xy -1.2067 -2.6404) (xy -1.2109 -2.6382) (xy -1.2191 -2.6334) (xy -1.227 -2.6279) (xy -1.2345 -2.6218)
+					(xy -1.2416 -2.6152) (xy -1.2481 -2.6081) (xy -1.254 -2.6006) (xy -1.2594 -2.5927) (xy -1.2618 -2.5886)
+					(xy -1.264 -2.5844) (xy -1.266 -2.5802) (xy -1.2678 -2.5759) (xy -1.2695 -2.5716) (xy -1.2709 -2.5672)
+					(xy -1.2721 -2.5628) (xy -1.2731 -2.5583) (xy -1.2738 -2.5539) (xy -1.2743 -2.5494) (xy -1.3623 -1.5272)
+					(xy -3.5441 -3.7496) (xy -3.6745 -3.6214) (xy -1.4112 -1.3183) (xy -1.1572 -1.3183) (xy -1.0617 -2.4287)
+					(xy 0.732 -2.4287) (xy 0.731 -2.4192) (xy 0.73 -2.4097) (xy 0.7293 -2.4002) (xy 0.7286 -2.3906)
+					(xy 0.7281 -2.3809) (xy 0.7277 -2.3713) (xy 0.7275 -2.3616) (xy 0.7275 -2.3518) (xy 1.0347 -2.3518)
+					(xy 1.0351 -2.369) (xy 1.0364 -2.3859) (xy 1.0385 -2.4025) (xy 1.0414 -2.4189) (xy 1.0452 -2.435)
+					(xy 1.0496 -2.4508) (xy 1.0549 -2.4663) (xy 1.0608 -2.4814) (xy 1.0675 -2.4962) (xy 1.0749 -2.5105)
+					(xy 1.0829 -2.5245) (xy 1.0915 -2.538) (xy 1.1008 -2.551) (xy 1.1107 -2.5636) (xy 1.1212 -2.5757)
+					(xy 1.1322 -2.5872) (xy 1.1437 -2.5983) (xy 1.1558 -2.6087) (xy 1.1684 -2.6186) (xy 1.1815 -2.6279)
+					(xy 1.195 -2.6366) (xy 1.2089 -2.6446) (xy 1.2233 -2.6519) (xy 1.238 -2.6586) (xy 1.2531 -2.6646)
+					(xy 1.2686 -2.6698) (xy 1.2844 -2.6743) (xy 1.3005 -2.678) (xy 1.3169 -2.6809) (xy 1.3336 -2.683)
+					(xy 1.3505 -2.6843) (xy 1.3676 -2.6848) (xy 1.3847 -2.6843) (xy 1.4016 -2.683) (xy 1.4183 -2.6809)
+					(xy 1.4347 -2.678) (xy 1.4508 -2.6743) (xy 1.4666 -2.6698) (xy 1.4821 -2.6646) (xy 1.4972 -2.6586)
+					(xy 1.5119 -2.6519) (xy 1.5263 -2.6446) (xy 1.5402 -2.6366) (xy 1.5537 -2.6279) (xy 1.5668 -2.6186)
+					(xy 1.5794 -2.6087) (xy 1.5914 -2.5983) (xy 1.603 -2.5872) (xy 1.614 -2.5757) (xy 1.6245 -2.5636)
+					(xy 1.6344 -2.551) (xy 1.6436 -2.538) (xy 1.6523 -2.5245) (xy 1.6603 -2.5105) (xy 1.6677 -2.4962)
+					(xy 1.6743 -2.4814) (xy 1.6803 -2.4663) (xy 1.6855 -2.4508) (xy 1.69 -2.435) (xy 1.6937 -2.4189)
+					(xy 1.6967 -2.4025) (xy 1.6988 -2.3859) (xy 1.7001 -2.369) (xy 1.7005 -2.3518) (xy 1.7001 -2.3347)
+					(xy 1.6988 -2.3178) (xy 1.6967 -2.3011) (xy 1.6937 -2.2847) (xy 1.69 -2.2686) (xy 1.6855 -2.2528)
+					(xy 1.6803 -2.2374) (xy 1.6743 -2.2223) (xy 1.6677 -2.2075) (xy 1.6603 -2.1932) (xy 1.6523 -2.1792)
+					(xy 1.6436 -2.1657) (xy 1.6344 -2.1527) (xy 1.6245 -2.1401) (xy 1.614 -2.128) (xy 1.603 -2.1164)
+					(xy 1.5914 -2.1054) (xy 1.5794 -2.0949) (xy 1.5668 -2.0851) (xy 1.5537 -2.0758) (xy 1.5402 -2.0671)
+					(xy 1.5263 -2.0591) (xy 1.5119 -2.0518) (xy 1.4972 -2.0451) (xy 1.4821 -2.0391) (xy 1.4666 -2.0339)
+					(xy 1.4508 -2.0294) (xy 1.4347 -2.0257) (xy 1.4183 -2.0228) (xy 1.4016 -2.0207) (xy 1.3847 -2.0194)
+					(xy 1.3676 -2.0189) (xy 1.3505 -2.0194) (xy 1.3336 -2.0207) (xy 1.3169 -2.0228) (xy 1.3005 -2.0257)
+					(xy 1.2844 -2.0294) (xy 1.2686 -2.0339) (xy 1.2531 -2.0391) (xy 1.238 -2.0451) (xy 1.2233 -2.0518)
+					(xy 1.2089 -2.0591) (xy 1.195 -2.0671) (xy 1.1815 -2.0758) (xy 1.1684 -2.0851) (xy 1.1558 -2.0949)
+					(xy 1.1437 -2.1054) (xy 1.1322 -2.1164) (xy 1.1212 -2.128) (xy 1.1107 -2.1401) (xy 1.1008 -2.1527)
+					(xy 1.0915 -2.1657) (xy 1.0829 -2.1792) (xy 1.0749 -2.1932) (xy 1.0675 -2.2075) (xy 1.0608 -2.2223)
+					(xy 1.0549 -2.2374) (xy 1.0496 -2.2528) (xy 1.0452 -2.2686) (xy 1.0414 -2.2847) (xy 1.0385 -2.3011)
+					(xy 1.0364 -2.3178) (xy 1.0351 -2.3347) (xy 1.0347 -2.3518) (xy 0.7275 -2.3518) (xy 0.7282 -2.3213)
+					(xy 0.7303 -2.291) (xy 0.7338 -2.2612) (xy 0.7387 -2.2318) (xy 0.7449 -2.2029) (xy 0.7523 -2.1745)
+					(xy 0.7611 -2.1466) (xy 0.771 -2.1193) (xy 0.7821 -2.0926) (xy 0.7944 -2.0665) (xy 0.8078 -2.041)
+					(xy 0.8224 -2.0163) (xy 0.8379 -1.9922) (xy 0.8545 -1.969) (xy 0.8721 -1.9465) (xy 0.8907 -1.9248)
+					(xy 0.9102 -1.904) (xy 0.9306 -1.8841) (xy 0.9518 -1.8651) (xy 0.9739 -1.847) (xy 0.9968 -1.83)
+					(xy 1.0205 -1.8139) (xy 1.0449 -1.7989) (xy 1.07 -1.7849) (xy 1.0958 -1.7721) (xy 1.1222 -1.7604)
+					(xy 1.1493 -1.7499) (xy 1.1769 -1.7406) (xy 1.2051 -1.7325) (xy 1.2337 -1.7257) (xy 1.2629 -1.7202)
+					(xy 1.2925 -1.7161) (xy 1.3109 -1.5194) (xy 0.0015 -0.1381) (xy -1.1572 -1.3183) (xy -1.4112 -1.3183)
+					(xy -1.3828 -1.2893) (xy -1.6075 1.3239) (xy -1.3845 1.3239) (xy -1.1776 -1.0806) (xy -0.1259 -0.0104)
+					(xy 0.1268 -0.0104) (xy 1.3331 -1.2808) (xy 1.5834 1.4053) (xy 1.5587 1.4053) (xy 1.5587 1.4482)
+					(xy 0.1268 -0.0104) (xy -0.1259 -0.0104) (xy -0.1227 -0.0071) (xy -1.3845 1.3239) (xy -1.6075 1.3239)
+					(xy -1.6298 1.5827) (xy -3.81 3.8825) (xy -3.81 4.1358) (xy -1.6541 1.8653) (xy -1.7101 2.5164)
+					(xy -1.4871 2.5164) (xy -1.4088 1.6069) (xy 0.0026 0.1204) (xy 0.8375 0.97) (xy -0.3396 0.97) (xy -0.3396 1.4145)
+					(xy 1.0217 1.4145) (xy 1.0217 1.1575) (xy 1.4616 1.6052) (xy 1.8253 1.6052) (xy 2.1184 1.6052)
+					(xy 2.1184 1.9804) (xy 2.0813 1.9804) (xy 1.8371 1.7316) (xy 1.8253 1.6052) (xy 1.4616 1.6052)
+					(xy 1.5587 1.704) (xy 1.5587 2.1802) (xy 1.6556 2.1802) (xy 1.6869 2.5164) (xy -1.4871 2.5164)
+					(xy -1.7101 2.5164) (xy -1.7109 2.5256) (xy -1.9787 2.5256) (xy -1.9787 2.7478) (xy -1.7431 2.7478)
+					(xy -1.7431 2.7479) (xy -1.5055 2.7479) (xy -1.2842 2.7479) (xy -1.2842 2.9501) (xy -1.3027 2.9397)
+					(xy -1.3207 2.9291) (xy -1.3382 2.9182) (xy -1.355 2.9069) (xy -1.3713 2.8954) (xy -1.3869 2.8836)
+					(xy -1.4019 2.8714) (xy -1.4163 2.859) (xy -1.43 2.8462) (xy -1.443 2.8332) (xy -1.4553 2.8198)
+					(xy -1.4668 2.8061) (xy -1.4777 2.792) (xy -1.4877 2.7776) (xy -1.497 2.7629) (xy -1.5055 2.7479)
+					(xy -1.7431 2.7479) (xy -1.7415 2.7526) (xy -1.7398 2.7576) (xy -1.738 2.7628) (xy -1.736 2.7681)
+					(xy -1.7339 2.7736) (xy -1.7316 2.7793) (xy -1.7292 2.7852) (xy -1.7266 2.7912) (xy -1.711 2.8246)
+					(xy -1.6934 2.8567) (xy -1.674 2.8877) (xy -1.6529 2.9176) (xy -1.63 2.9463) (xy -1.6055 2.9739)
+					(xy -1.5795 3.0004) (xy -1.5519 3.0259) (xy -1.5229 3.0503) (xy -1.4924 3.0737) (xy -1.4751 3.0859)
+					(xy -0.9044 3.0859) (xy -0.9044 2.7478) (xy 1.6782 2.7478) (xy 1.6679 2.7699) (xy 1.6559 2.7912)
+					(xy 1.6422 2.8118) (xy 1.6271 2.8317) (xy 1.6104 2.8509) (xy 1.5923 2.8694) (xy 1.5728 2.8872)
+					(xy 1.5519 2.9044) (xy 1.5298 2.9209) (xy 1.5064 2.9368) (xy 1.4819 2.9521) (xy 1.4562 2.9667)
+					(xy 1.4018 2.9942) (xy 1.3434 3.0194) (xy 1.2817 3.0424) (xy 1.217 3.0633) (xy 1.1497 3.0822) (xy 1.0803 3.0992)
+					(xy 1.0093 3.1143) (xy 0.9369 3.1277) (xy 0.8638 3.1395) (xy 0.7902 3.1497) (xy 0.7902 2.9423)
+					(xy -0.3025 2.9423) (xy -0.3025 3.1645) (xy -0.0803 3.1645) (xy 0.5679 3.1645) (xy 0.5679 3.2665)
+					(xy -0.0803 3.2665) (xy -0.0803 3.1645) (xy -0.3025 3.1645) (xy -0.3025 3.1731) (xy -0.3759 3.1671)
+					(xy -0.4508 3.1599) (xy -0.5267 3.1514) (xy -0.603 3.1414) (xy -0.6794 3.13) (xy -0.7554 3.117)
+					(xy -0.8306 3.1023) (xy -0.9044 3.0859) (xy -1.4751 3.0859) (xy -1.4607 3.0961) (xy -1.4276 3.1175)
+					(xy -1.3934 3.1379) (xy -1.3581 3.1575) (xy -1.3216 3.1761) (xy -1.2842 3.1938) (xy -1.2842 3.3406)
+					(xy -0.9044 3.3406) (xy -0.9044 3.3179) (xy -0.8297 3.334) (xy -0.7543 3.3483) (xy -0.6784 3.3608)
+					(xy -0.6023 3.3716) (xy -0.5264 3.381) (xy -0.4509 3.3888) (xy -0.3762 3.3954) (xy -0.3025 3.4007)
+					(xy -0.3025 3.4887) (xy 0.7902 3.4887) (xy 0.7902 3.376) (xy 0.9381 3.3547) (xy 1.0116 3.3417)
+					(xy 1.0845 3.3269) (xy 1.1563 3.3103) (xy 1.2269 3.2917) (xy 1.2959 3.2711) (xy 1.3629 3.2485)
+					(xy 1.4277 3.2236) (xy 1.49 3.1963) (xy 1.5494 3.1667) (xy 1.6056 3.1346) (xy 1.6583 3.0998) (xy 1.7073 3.0624)
+					(xy 1.7521 3.0221) (xy 1.7926 2.979) (xy 1.8031 2.9916) (xy 1.8143 3.0037) (xy 1.8261 3.0151) (xy 1.8386 3.0259)
+					(xy 1.8516 3.0359) (xy 1.8652 3.0452) (xy 1.8794 3.0538) (xy 1.894 3.0616) (xy 1.9091 3.0686) (xy 1.9247 3.0747)
+					(xy 1.9407 3.08) (xy 1.957 3.0844) (xy 1.9737 3.0879) (xy 1.9908 3.0904) (xy 2.0081 3.0919) (xy 2.0257 3.0924)
+					(xy 2.041 3.092) (xy 2.056 3.0909) (xy 2.0709 3.089) (xy 2.0855 3.0864) (xy 2.0998 3.0831) (xy 2.1139 3.0791)
+					(xy 2.1276 3.0744) (xy 2.1411 3.0691) (xy 2.1542 3.0632) (xy 2.167 3.0567) (xy 2.1794 3.0495) (xy 2.1914 3.0418)
+					(xy 2.2031 3.0336) (xy 2.2142 3.0248) (xy 2.225 3.0154) (xy 2.2353 3.0056) (xy 2.2451 2.9953) (xy 2.2544 2.9846)
+					(xy 2.2632 2.9734) (xy 2.2715 2.9618) (xy 2.2792 2.9498) (xy 2.2863 2.9373) (xy 2.2929 2.9246)
+					(xy 2.2988 2.9114) (xy 2.3041 2.898) (xy 2.3088 2.8842) (xy 2.3128 2.8702) (xy 2.3161 2.8558) (xy 2.3187 2.8412)
+					(xy 2.3206 2.8264) (xy 2.3217 2.8113) (xy 2.3221 2.7961) (xy 2.3217 2.7808) (xy 2.3206 2.7658)
+					(xy 2.3187 2.751) (xy 2.3161 2.7364) (xy 2.3128 2.722) (xy 2.3088 2.708) (xy 2.3041 2.6942) (xy 2.2988 2.6808)
+					(xy 2.2929 2.6676) (xy 2.2863 2.6549) (xy 2.2792 2.6424) (xy 2.2715 2.6304) (xy 2.2632 2.6188)
+					(xy 2.2544 2.6076) (xy 2.2451 2.5969) (xy 2.2353 2.5866) (xy 2.225 2.5767) (xy 2.2142 2.5674) (xy 2.2031 2.5586)
+					(xy 2.1914 2.5504) (xy 2.1794 2.5427) (xy 2.167 2.5355) (xy 2.1542 2.529) (xy 2.1411 2.5231) (xy 2.1276 2.5177)
+					(xy 2.1139 2.5131) (xy 2.0998 2.5091) (xy 2.0855 2.5058) (xy 2.0709 2.5032) (xy 2.056 2.5013) (xy 2.041 2.5001)
+					(xy 2.0257 2.4998) (xy 2.0181 2.4999) (xy 2.0106 2.5001) (xy 2.003 2.5006) (xy 1.9956 2.5013) (xy 1.9882 2.5021)
+					(xy 1.9808 2.5031) (xy 1.9735 2.5044) (xy 1.9663 2.5057) (xy 1.9591 2.5073) (xy 1.952 2.509) (xy 1.9449 2.5109)
+					(xy 1.938 2.513) (xy 1.9311 2.5152) (xy 1.9242 2.5176) (xy 1.9175 2.5202) (xy 1.9108 2.5229) (xy 1.8789 2.1802)
+					(xy 2.0268 2.1802) (xy 3.9778 4.1656) (xy 3.9778 3.9122)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
 				)
 			)
 		)
